@@ -84,7 +84,7 @@ public class arenaPertarungan {
                 
                 catch (java.util.InputMismatchException e) {
                     System.out.println("ERROR INPUT: Anda harus memasukkan ANGKA!");
-                    input.nextLine(); // membersihkan input buffer
+                    input.nextLine(); 
                 }
                 catch (targetMatiException e) {
                     System.out.println("KESALAHAN GAME: " + e.getMessage());
